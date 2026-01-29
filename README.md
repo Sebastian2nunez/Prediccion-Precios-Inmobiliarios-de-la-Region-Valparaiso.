@@ -128,12 +128,12 @@ jupyter notebook
 
 | Modelo | CV R² (5-fold) | Test R² | Test MAE (UF) |
 |--------|----------------|---------|---------------|
-| Linear Regression | 0.46 | 0.51 | 3,417 |
-| Ridge | 0.46 | 0.52 | 3,404 |
-| Lasso | 0.46 | 0.51 | 3,418 |
-| Random Forest | - | - | - |
-| XGBoost | - | - | - |
-| **Gradient Boosting** | **0.62** | **0.67** | **2,696** |
+| Linear Regression | 0.46 | 0.51 | 3417 |
+| Ridge | 0.46 | 0.52 | 3404 |
+| Lasso | 0.46 | 0.51 | 3418 |
+| Random Forest | 0.58 | 0.64 | 2786 |
+| XGBoost | 0.52 | 0.61 | 2856 |
+| **Gradient Boosting** | **0.62** | **0.66** | **2696** |
 
 **Modelo Final: Gradient Boosting Optimizado**
 - Hiperparámetros optimizados con RandomizedSearchCV
